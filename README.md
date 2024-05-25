@@ -2,7 +2,7 @@
 
 This app uses Laravel, Livewire, and Volt to create a simple interface that generates a response from an AI model using [Ollama](https://ollama.com/).
 
-![Laravel Ollama Screenshot](https://raw.githubusercontent.com/thedevdojo/laravel-ollama/main/public/screenshot.png)
+![Laravel Ollama Screenshot](https://raw.githubusercontent.com/thedevdojo/laravel-ollama/main/public/ollama-screenshot.png)
 
 Simply download and install [Ollama](https://ollama.com/). Then use it with any model, like so:
 
