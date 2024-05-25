@@ -127,7 +127,6 @@ new class extends Component {
             </div>
             <div x-data="{ response: @entangle('response'), showResponse: false }" class="flex overflow-y-scroll flex-col flex-1 justify-between items-center pt-5 pb-24 mx-auto w-full h-full" style="overflow-y:scroll">
 
-
                 <div x-show="showResponse" class="p-5 w-full h-auto rounded-lg border border-zinc-200 bg-zinc-50 prose prose-md">
                     <div wire:stream="response"></div>
                     <div>{!! Str::markdown($response) !!}</div>
